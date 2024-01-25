@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <u1> 
+                <p><a href="homepage.html">Home</a></p>
+                <link rel="stylesheet"href="style.css">
+            </nav>
+            <u1/>
+            <hr>
+            <h1>Studying List</h1>
+       </header>
+       <section>
+        <h2>Basic Commands</h2>
+        <h3> man Command</h3>
+       <p> man ls:
+        This command is used to display the documentation on the ‘ls’ command in linux</p>
+            <p>Syntax:
+        man [COMMAND NAME]</p>
+        <h3>cd Command</h3>
+        <p>cd :
+            It is used to change the current working directory to a specified folder in inside the terminal
+  </p>
+  <p>Syntax:
+    cd [Directory]
+</p>
+<p>cd ..
+    This command is used to navigate to parent directory of current directory 
+</p>
+<p>ls : 
+	This command is used to display a directory’s files and folders
+</p>
+<p>ls  -l :
+    This is used to display a detailed version of every file and directory available inside the current working directory
+</p>
+<h3>cat Command</h3>
+<p>cat[filename] : Used to display the contents of the file as named 
+</p>
+<p>cat  -n <filename> : Used to display the contents of the file with line number
+</p>
+<h3>touch Command</h3>
+<p>touch:
+    This is used to create a new file without any content inside it  
+</p>
+<p>touch [filename] : Used to create a new file with the given name 
+</p>
+<p>touch <filename1><filename2> : Used to create multiple files simultaneously
+</p>
+<h3>mkdir Command</h3>
+<p>Mkdir:
+    This is used to create new directories inside an existing working directory
+</p>
+<p>Syntax:
+    Mkdir [option] .. <Directory>..
+</p>
+<p>mkdir --help : used to display relevant information pertaining to the mkdir command 
+</p>
+<p>mkdir [filename] : used to create a folder with a specified name 
+</p>
+<h3>pwd</h3>
+<p>pwd: 
+	This is used to display the path of the current working directory your in 
+</p>
+<p>Syntax:pwd -L : it displays the symbolic version of the existing path</p>
+<p>pwd-P : It displays the actual existing path</p>
+<h3>echo</h3>
+<p>echo : 
+    This is used to display a line of text/string which is passed in as an argument . it is commonly used for debugging shell programs inside th terminal 
+</p>
+<p>Syntax:
+    echo “String” : Used to display the string passed as an argument inside quotes 
+</p>
+<p>echo -e “learn\nBy\nDoing” : enables the echo command to recognize the backslash escape sequences inside the arguments 
+</p>
+<h3>rm Command</h3>
+<p>rm : 
+	This is used to delete references to object from filesystem(a file with two different names)
+</p>
+<p>Syntax :
+	rm <filename> : used to delete the corresponding existing file from inside the working directory
+</p>
+<p>rm -i <filename> : enables the rm command to request confirmation from the user before deleting the corresponding file </p>
+    <h3>rmdir Command</h3>
+    <p>rmdir : 
+        This command allows you to delete empty directories, if a directory contains files/folders inside it ,it will display an error 
+     </p>
+     <p>rmdir <Directory_Name> : used to delete any directory provided, if it is empty</p>
+        <h3>wget Command</h3>
+        <p>wget : 
+            It is used to download applications and web pages directly from the web 
+       </p>
+       <p>Syntax : 
+        wget <URL> : used to download applications and web pages directly from the web 
+   </p>
+   <p>wget -O <Custom_file_Name><URL> : used to retry a file download for a given number of times </p>
+    <h3>mv Command</h3>
+    <p>mv : 
+        You can rename a file/directory 
+        You can easily move a file/directory from one location to another 
+        </p>
+        <p>Syntax:
+            mv [Source] [Destination]
+       </p>
+       <p>mv <Initial_filename> <New_filename> : used to rename a file to a different name as specified 
+    </p>
+    <p>mv <filename> <Directory_name> : used to transfer a file from a given directory to a different directory 
+    </p>
+    <h3>cp Command</h3>
+    <p>cp : 
+        It is used to copy files/directory from one location to another from inside the terminal 
+    </p>
+    <p>Syntax : 
+        cp <source_file> <Dest_file> : used to copy the contents of the source file to the destination file 
+    </p>
+    <h3>tree command</h3>
+    <p>tree : 
+        It is used to list out the contents of directory in a tree-like structure 
+    </p>
+    <p>Syntax : 
+        tree : used to display the contents of directory as an indented tree 
+   </p>
+   <p>tree -f : used to display the full path of each working directory and file inside your current directory 
+</p>
+<h3>grep Command</h3>
+<p>grep : 
+    It is used to search through a specified file and print sll lines that match a given pattern 
+</p>
+<p>Syntax : 
+	grep [pattern] [filename]
+</p>
+<p>grep -i [pattern] [filename] : used to search for given pattern inside a given file . the i-tag is used to disable case sensitivity while searching for pattern</p>
+<p>grep -c [pattern][filename]: used to display the count of the number of occurrences of a given pattern inside a specified file</p>
+       </section>
+       </body>
+</html>
